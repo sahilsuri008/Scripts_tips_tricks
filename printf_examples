@@ -1,0 +1,17 @@
+#Some printf examples:
+
+$ printf "%s" "this is" "the printf" "command"
+this isthe printfcommand
+
+$ printf "%s\n" "this is" "the printf" "command"
+this is
+the printf
+command
+
+$ printf "%s %s %s\n" "this is" "the printf" "command"
+this is the printf command
+
+$ printf "%20s %20s %30s\n" "this is" "the printf" "command"
+
+this is           the printf                        command
+
